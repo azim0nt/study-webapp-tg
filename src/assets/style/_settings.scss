@@ -24,6 +24,7 @@ $destructive_text_color: var(--tg-theme-destructive-text-color);
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color: $text_color;
 }
 button{
     background-color: $button_color;
@@ -34,14 +35,12 @@ button{
     outline: none;
     cursor: pointer;
 }
-h1{
-    color: $text_color;
-}
+
 
 .link-btn{
     color: $link_color;
     background-color: transparent !important;
     padding: 0;
     border-radius: 0px;
-
+    text-decoration: underline;
 }

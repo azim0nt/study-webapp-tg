@@ -3,7 +3,14 @@ import { createContext } from 'react'
 
 const initialState = {
     tg:window.Telegram.WebApp,
-    user:null
+    user:{
+        firstname: '',
+        lastnme: '',
+        username: '',
+        language: '',
+        premium: false,
+        photo: ''
+    }
 }
 
 const context = createContext()

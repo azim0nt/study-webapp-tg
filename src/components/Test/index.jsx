@@ -41,7 +41,7 @@ function Test() {
                     <h1>Hello {store.user.firstname}</h1>
                     <button onClick={() => { openLinkFn('https://youtu.be/dQw4w9WgXcQ?si=oH-CndaIq-3l8si3') }} className='link-btn' href="https://youtu.be/dQw4w9WgXcQ?si=oH-CndaIq-3l8si3">Free Money</button>
                     <button>Test Button</button>
-                    <h1>нурик гей </h1>
+                    <p>{store.user.premium ? 'еба премиум есть' : 'сорри чел но ты без премиума'}</p>
                     <button onClick={() => { showMainBtnFn('close') }}>Show close button</button>
                 </div>
             </div>
