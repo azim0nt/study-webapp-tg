@@ -14,7 +14,7 @@ function Test() {
             <div className="test-wrapper">
                 <div className="test-content">
                     <h1>This is Test</h1>
-                    <button onClick={openLinkFn('https://youtu.be/dQw4w9WgXcQ?si=oH-CndaIq-3l8si3')} className='link-btn' href="https://youtu.be/dQw4w9WgXcQ?si=oH-CndaIq-3l8si3">Free Money</button>
+                    <button onClick={() =>{openLinkFn('https://youtu.be/dQw4w9WgXcQ?si=oH-CndaIq-3l8si3')}} className='link-btn' href="https://youtu.be/dQw4w9WgXcQ?si=oH-CndaIq-3l8si3">Free Money</button>
                     <button>Test Button</button>
                 </div>
             </div>
