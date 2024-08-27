@@ -1,2 +1,11 @@
 @import '../../assets/style/settings';
 
+
+.test-wrapper{
+    background-color: $bg_color;
+    .test-content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
