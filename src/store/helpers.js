@@ -1,7 +1,7 @@
 function globalReducer(state, payload){
     switch(payload.type){
-        // case "changeMessage":
-            // return {...state, message:payload.message}
+        case "setUser":
+            return {...state, user:payload.user}
         default:
             return state
     }

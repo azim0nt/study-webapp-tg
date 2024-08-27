@@ -2,7 +2,8 @@ import { globalReducer } from './helpers'
 import { createContext } from 'react'
 
 const initialState = {
-    tg:window.Telegram.WebApp
+    tg:window.Telegram.WebApp,
+    user:null
 }
 
 const context = createContext()

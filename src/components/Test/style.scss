@@ -3,6 +3,9 @@
 
 .test-wrapper{
     background-color: $bg_color;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
     .test-content{
         display: flex;
         flex-direction: column;
